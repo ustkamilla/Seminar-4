@@ -10,7 +10,7 @@ int[] CreateArray(int len)
 {
     int[] arr = new int[len];
     for (int i = 0; i < arr.Length; i++)
-        arr[i] = new Random().Next(0, 10);
+        arr[i] = new System.Random().Next(0, 10);
     return arr;
 }
 
